@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f3f0f0;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a, .btn{
+    transition: all 300ms ease;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    min-height: 13vh;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: #c3d422;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #c3d422;
+}
+
+.logo a{
+    color: #c3d422;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+}
+
+
+.head-text{
+    text-align: center;
+    padding: 20px 30px;
+    margin: 50px 0;
+    
+}
+
+#about-us{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 400px;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#about-us .about-left{
+   flex-basis: 50%;
+   padding: 50px;
+   background: #fff;
+
+}
+
+#about-us .about-text{
+    width: 600px;
+}
+
+#about-us .about-left h1{
+    color: #c3d422;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+#about-us .about-left p{
+    text-align: left;
+    line-height: 2rem;
+}
+
+#about-us .about-right{
+    flex-basis: 50%;
+}
+
+#about-us .about-right img{
+    width: 100%;
+    height: 400px;
+    bottom: 100px;
+}
+
+#believe{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 150px;
+    margin-top: 100px;
+}
+.believe-left,
+.believe-text{
+    flex-basis: 50%;
+}
+
+
+.believe-left img{
+ width: 400px;
+ border-radius: 15px;
+ margin-left: 48px;
+}
+
+.believe-text h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #c3d422;
+}
+
+.believe-text p{
+   font-size: 18px;
+   line-height: 2rem;
+   font-weight: 500;
+}
+
+#team{
+    padding: 100px 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#team h1{
+    color: #c3d422;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#team .row2{
+    text-align: center;
+    margin: 60px;
+    border-radius: 50%;
+}
+
+#team .row2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+#team .row2 h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+#team .row2 p{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#figures{
+    display: flex;
+    flex-direction: row;
+    background: #c3d422;
+    padding: 50px;
+}
+.fig-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#figures .row2{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+    color: #fff;
+}
+
+
+#partners .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+#partners .container .row2{
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+#partners .container .row2 h2{
+    color: #c3d422;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#partners .container .row2 h1{
+    font-size: 30px;
+}
+
+footer{
+    background-color: #00001f;
+    color: #fff;
+    padding: 50px 50px 40px;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h1{
+    color: #c3d422;
+    margin-bottom: 10px;
+}
+
+footer .company-info,
+footer .company-contact{
+    flex-basis: 30%;
+    text-align: left;
+}
+
+
+footer .company-about,
+footer .company-products{
+    flex-basis: 20%;
+}
+
+
+footer .company-products{
+ font-size: 12px;
+ margin-top: 38px;
+}
+
+footer .company-about{
+    font-size: 12px;
+    margin-top: 52px;
+}
+
+footer .company-contact{
+    font-size: 13px;
+    margin-top: 39px;
+}
+footer .apps img{
+    width: 140px;
+    margin-right: 10px;
+}
+footer .apps p{
+    margin-bottom: 20px;
+}
+footer .company-info p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+footer hr{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+footer small{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .company-products small,
+footer .company-about small,
+footer .company-contact small{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+footer .wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+
+footer #input{
+    font-family: 'Times New Roman';
+    width: 250px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+footer .subscribeBtn{
+    width: 150px;
+    height: 60px;
+    background: #c3d422;
+    border: 2px solid #c3d422;
+    margin-top: 13px;
+    color: #000;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+
+.socials{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.socials img{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+}
